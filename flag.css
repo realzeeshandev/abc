@@ -1,0 +1,37 @@
+
+.flag {
+  display: flex;
+  width: 600px;      
+  height: 300px;
+  border: 1px solid #000000; 
+}
+
+.red-band {
+  width: 25%;         
+  background-color: #FF0000; 
+  height: 100%;
+}
+
+.stripes {
+  width: 75%;         
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.stripe {
+  flex: 1;
+}
+
+
+.green {
+  background-color: #008000; 
+}
+
+.white {
+  background-color: #FFFFFF;  
+}
+
+.black {
+  background-color: #000000;  
+}
